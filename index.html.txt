@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Kamil Prasuła</h1>
+<p>Strona internetowa stworzona na potrzeby zadania 1</p>
+</body>
+</html>
