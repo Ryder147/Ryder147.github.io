@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        background-color: #988cf7;
+        
+      }
+      h1{
+        margin:0px;
+        background-color: #333;
+        color: white;
+        font-size: 25px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        ;
+      }
+
+      li {
+        margin-right: 10px;
+
+
+      }
+
+      li a {
+        display: inline;
+        color: white;
+        text-align: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        float: left
+      }
+
+
+
+      .home {
+        background-color: #56589f;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Strona do zadania 2</h1>
+
+    <ul>
+      <li><a class="home" href="#home">Strona Główna</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="#inf">Informacje</a></li>
+    </ul>
+    <img src="https://zooart.com.pl/blog/wp-content/uploads/2020/11/przyjecie-malego-kota-w-domu-6.jpg" ALIGN="LEFT" style="float:left; margin-top:10px; width:300px; heigth: 300px;" />
+
+
+  </body>
+
+</html>
