@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>Zadanie 2 </title>
+    <style>
+      body {
+        background-color: #988cf7;
+        
+      }
+      h1{
+        margin:0px;
+        background-color: #333;
+        color: white;
+        font-size: 25px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        ;
+      }
+
+      li {
+        margin-right: 10px;
+
+
+      }
+
+      li a {
+        display: inline;
+        color: white;
+        text-align: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        float: left
+      }
+
+
+
+      .home {
+        background-color: #56589f;
+
+      }
+      p{
+         background-color: #1f2649;
+         color: white;
+         padding:20px;
+        
+      }
+      img{
+        float:left; 
+        padding-right:20px; 
+        width:600px; 
+        
+        
+      }
+      
+      .kalkulator{
+        background-color: #1f2649;
+         margin:20px;
+         width:45%;
+      }
+      
+      .komorka{
+        display:inline-block;
+         background-color: #988cf7 ;
+         background-size:cover;
+         height:50px;
+         width:50px;
+         padding:10px;
+         margin:20px;
+        
+      }
+
+    </style>
+    <script>
+    var a=1;
+    
+    function gra(nr)
+    {
+   
+    var pole=document.getElementById(nr);
+    		if(true){
+        	pole.style.backgroundImage="url(https://cdn.pixabay.com/photo/2016/08/25/07/30/orange-1618917_960_720.png)";
+          //pole.style.background="red"; 
+          console.log("cos");
+        }
+    }
+    
+    </script>
+  </head>
+
+  <body>
+    <h1>Strona do zadania 2</h1>
+
+    <ul>
+      <li><a class="home" href="#home">Strona Główna</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+      <li><a href="#inf">Informacje</a></li>
+    </ul>
+    <p>
+    <img src="https://zooart.com.pl/blog/wp-content/uploads/2020/11/przyjecie-malego-kota-w-domu-6.jpg" alt="Kot w koszyku" align="left" />
+    Według informacji przekazanych przez NIK w Polsce rośnie liczba bezdomnych psów i kotów. Dzieje się tak pomimo tego, że samorządy terytorialne przeznaczają coraz więcej środków na opiekę nad zwierzętami.
+Problem bezdomności zwierząt w Polsce jest wciąż bardzo duży. Schroniska są pełne psów i kotów i jednocześnie wciąż ich przybywa. Bezdomne zwierzęta rozmnażają się w niekontrolowany sposób przez brak kastracji i sterylizacji. Kontrole NIK wykazały, że ustawowy obowiązek kastracji i sterylizacji zwierząt realizowany jest tylko w jednej trzeciej gmin.
+<br/><br/>“W Polsce mamy do czynienia z kuriozalną sytuacją: im więcej samorządy terytorialne wydają na opiekę zwierząt, tym bardziej rośnie liczba bezdomnych psów i kotów” – powiedział prezes NIK Krzysztof Kwiatkowski. Problem bezpańskich zwierząt został poruszony przy okazji konferencji „Zapobieganie bezdomności zwierząt. Dobre i złe praktyki. Rekomendacje”, która odbyła się w Krakowie i miała na celu uświadomienie władzom samorządowym konieczności realizowania ustawowych obowiązków opieki nad zwierzętami.
+<br/><br/>
+Prezes NIK podkreślił konieczność zapobiegania dalszemu rozmnażaniu się bezdomnych zwierząt. 
+„Jeżeli nie zapanujemy nad niechcianym rozrodem zwierząt, to ilość bezdomnych zwierząt zawsze będzie większa niż tych, którzy mogliby być nowymi, kochającymi właścicielami” – powiedział Kwiatkowski, dodając, że w niektórych państwach Europy to nie pies czy kot czekają na kochającego właściciela, ale to człowiek czeka na zwierzę, które będzie mógł przygarnąć ze schroniska.
+<br/><br/>
+Kontrole NIK wykazały, że w Polsce mają miejsce tzw. „adopcje donikąd”, podczas których gmina za określoną kwotę przekazuje bezdomne zwierzę do schroniska, ale nie interesuje się później losem zwierzęcia. Prezes NIK powiedział, że były odnotowane przypadki, w których system „adopcji donikąd” ukrywał uśmiercanie zwierząt.
+<br/><br/>
+„Właściwa opieka nad zwierzętami będzie lepsza dla zwierząt i tańsza dla obywateli” – podkreślał prezes NIK.
+W 2016 r. w Polsce w schroniskach dla zwierząt przebywało 112 727 psów, 29 621 kotów oraz 118 koni. W województwie małopolskim w 2016 r. adoptowano 4 592 psów i 1889 kotów.
+
+ Według informacji przekazanych przez NIK w Polsce rośnie liczba bezdomnych psów i kotów. Dzieje się tak pomimo tego, że samorządy terytorialne przeznaczają coraz więcej środków na opiekę nad zwierzętami.
+Problem bezdomności zwierząt w Polsce jest wciąż bardzo duży. Schroniska są pełne psów i kotów i jednocześnie wciąż ich przybywa. Bezdomne zwierzęta rozmnażają się w niekontrolowany sposób przez brak kastracji i sterylizacji. Kontrole NIK wykazały, że ustawowy obowiązek kastracji i sterylizacji zwierząt realizowany jest tylko w jednej trzeciej gmin.
+<br/><br/>“W Polsce mamy do czynienia z kuriozalną sytuacją: im więcej samorządy terytorialne wydają na opiekę zwierząt, tym bardziej rośnie liczba bezdomnych psów i kotów” – powiedział prezes NIK Krzysztof Kwiatkowski. Problem bezpańskich zwierząt został poruszony przy okazji konferencji „Zapobieganie bezdomności zwierząt. Dobre i złe praktyki. Rekomendacje”, która odbyła się w Krakowie i miała na celu uświadomienie władzom samorządowym konieczności realizowania ustawowych obowiązków opieki nad zwierzętami.
+<br/><br/>
+Prezes NIK podkreślił konieczność zapobiegania dalszemu rozmnażaniu się bezdomnych zwierząt. 
+„Jeżeli nie zapanujemy nad niechcianym rozrodem zwierząt, to ilość bezdomnych zwierząt zawsze będzie większa niż tych, którzy mogliby być nowymi, kochającymi właścicielami” – powiedział Kwiatkowski, dodając, że w niektórych państwach Europy to nie pies czy kot czekają na kochającego właściciela, ale to człowiek czeka na zwierzę, które będzie mógł przygarnąć ze schroniska.
+<br/><br/>
+Kontrole NIK wykazały, że w Polsce mają miejsce tzw. „adopcje donikąd”, podczas których gmina za określoną kwotę przekazuje bezdomne zwierzę do schroniska, ale nie interesuje się później losem zwierzęcia. Prezes NIK powiedział, że były odnotowane przypadki, w których system „adopcji donikąd” ukrywał uśmiercanie zwierząt.
+<br/><br/>
+„Właściwa opieka nad zwierzętami będzie lepsza dla zwierząt i tańsza dla obywateli” – podkreślał prezes NIK.
+W 2016 r. w Polsce w schroniskach dla zwierząt przebywało 112 727 psów, 29 621 kotów oraz 118 koni. W województwie małopolskim w 2016 r. adoptowano 4 592 psów i 1889 kotów.
+    </p>
+    <p> Kółko i Krzyżyk
+    <div class="kalkulator">
+    <div class="komorka" id="1" onclick="gra(1)"></div>
+    <div class="komorka" id="2" onclick="gra(2)"></div>
+    <div class="komorka" id="3" onclick="gra(3)"></div>
+    <br>
+    <div class="komorka" id="4" onclick="gra(4)"></div>
+    <div class="komorka" id="5" onclick="gra(5)"></div>
+    <div class="komorka" id="6" onclick="gra(6)"></div>   
+    <br>
+    <div class="komorka" id="7" onclick="gra(7)"></div>
+    <div class="komorka" id="8" onclick="gra(8)"></div>
+    <div class="komorka" id="9" onclick="gra(9)"></div>        
+ <button type="button">Reset</button>
+    </div>
+
+  </body>
+
+</html>
