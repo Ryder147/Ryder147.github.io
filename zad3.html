@@ -94,10 +94,21 @@
     var a=1;
     var kolko=[];
     var krzyzyk=[];
-    var wygrana=[[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]];
+    var wygrana=[[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]];  
+   
+    
+    
     function gra(nr)
     {
+    var spr=true;
    
+    
+    kolko.forEach(item=>{
+    if(kolko.includes(nr) || krzyzyk.includes(nr) ){
+    spr=false;
+    }
+    })
+   if(spr){
     var pole=document.getElementById(nr);
     		if(a==1){
         	pole.style.backgroundImage="url(https://cdn.pixabay.com/photo/2016/08/25/07/30/orange-1618917_960_720.png)";
@@ -118,6 +129,7 @@
           
         }
     }
+    }
     
     function czyWygrana(tab,a)
     {
@@ -131,18 +143,33 @@
     	}
       if(licznik==3){
       	if(a==1){
-      		alert("Kółko wygrało !!!");
-          console.log("Kółko wygrało !!!");          
+      		
+          console.log("Kółko wygrało !!!"); 
+          document.getElementById("wynik").innerHTML="Wygrało Kółko";
+          setTimeout(()=>{window.location.reload()},3000);
+          
       		}
         if(a==2){
-         alert("Krzyżyk wygrał !!!");
-         console.log("Krzyżyk wygrał !!!");        
+         
+         console.log("Krzyżyk wygrał !!!");
+         document.getElementById("wynik").innerHTML="Wygrał Krzyżyk";
+         setTimeout(()=>{window.location.reload()},3000);
         }
         kolko=[];
    			krzyzyk=[];
       }
       licznik=0;
-    }   
+    } 
+    spr=0;
+    for (var i=1;i<10;i++){
+      if(kolko.includes(i) || krzyzyk.includes(i)){
+				spr+=1;
+      }
+    }
+    if(spr==9){
+    		document.getElementById("wynik").innerHTML="Remis";
+        setTimeout(()=>{window.location.reload()},3000);
+    }
     
     }
     
@@ -155,6 +182,7 @@
     kolko=[];
     krzyzyk=[];
     a=1;
+    document.getElementById("wynik").innerHTML="Wynik";
     }
     
     </script>
@@ -170,6 +198,7 @@
     </ul>
     
     <p style="text-align: center; margin-left: 20px;  width:310px; margin-left:35%;"> Kółko i Krzyżyk</p>
+     <p id="wynik" style="text-align: center; margin-left: 20px;  width:310px; margin-left:35%;"> Wynik</p>
     <div class="kalkulator">
     <div class="komorka" id="1" onclick="gra(1)"></div>
     <div class="komorka" id="2" onclick="gra(2)"></div>
