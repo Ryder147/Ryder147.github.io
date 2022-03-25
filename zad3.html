@@ -95,7 +95,7 @@
     var kolko=[];
     var krzyzyk=[];
     var wygrana=[[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]];  
-   
+		var koniec=true;  
     
     
     function gra(nr)
@@ -109,7 +109,7 @@
 	
     }
     })
-   if(spr){
+   if(spr && koniec){
     var pole=document.getElementById(nr);
     		if(a==1){
         	pole.style.backgroundImage="url(https://cdn.pixabay.com/photo/2016/08/25/07/30/orange-1618917_960_720.png)";
@@ -147,6 +147,7 @@
           console.log("Kółko wygrało !!!"); 
           document.getElementById("wynik").innerHTML="Wygrało Kółko";
           //setTimeout(()=>{window.location.reload()},3000);
+          koniec=false;
           
       		}
         if(a==2){
@@ -154,6 +155,7 @@
          console.log("Krzyżyk wygrał !!!");
          document.getElementById("wynik").innerHTML="Wygrał Krzyżyk";
          //setTimeout(()=>{window.location.reload()},3000);
+         koniec=false;
         }
         kolko=[];
    			krzyzyk=[];
@@ -169,6 +171,7 @@
     if(spr==9){
     		document.getElementById("wynik").innerHTML="Remis";
         //setTimeout(()=>{window.location.reload()},3000);
+        koniec=false;
     }
     
     }
@@ -183,6 +186,7 @@
     krzyzyk=[];
     a=1;
     document.getElementById("wynik").innerHTML="Wynik";
+    koniec=true;
     }
     
     </script>
