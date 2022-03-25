@@ -120,8 +120,7 @@
           console.log(kolko);
           czyWygrana(kolko,1)
         }else{
-        pole.style.backgroundImage="url(https://cdn.pixabay.com/photo/2017/07/04/08/12/cross-2470297_960_720.png)";
-          //pole.style.background="red"; 
+        pole.style.backgroundImage="url(https://cdn.pixabay.com/photo/2017/07/04/08/12/cross-2470297_960_720.png)";          
           a=1;
           krzyzyk.push(nr);
           console.log(nr);
@@ -147,14 +146,14 @@
       		
           console.log("Kółko wygrało !!!"); 
           document.getElementById("wynik").innerHTML="Wygrało Kółko";
-          setTimeout(()=>{window.location.reload()},3000);
+          //setTimeout(()=>{window.location.reload()},3000);
           
       		}
         if(a==2){
          
          console.log("Krzyżyk wygrał !!!");
          document.getElementById("wynik").innerHTML="Wygrał Krzyżyk";
-         setTimeout(()=>{window.location.reload()},3000);
+         //setTimeout(()=>{window.location.reload()},3000);
         }
         kolko=[];
    			krzyzyk=[];
@@ -169,7 +168,7 @@
     }
     if(spr==9){
     		document.getElementById("wynik").innerHTML="Remis";
-        setTimeout(()=>{window.location.reload()},3000);
+        //setTimeout(()=>{window.location.reload()},3000);
     }
     
     }
