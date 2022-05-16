@@ -1,0 +1,46 @@
+.calosc
+	{
+		height:800px;
+		width:200px;		
+		margin-left:40%;
+		margin-top:20%;
+	}
+	
+	.guziki
+	{
+		height:600px;
+		width:420px;
+		text-align: center;
+		margin-top:5px;
+		
+	}
+	.cyfry
+	{
+		height:100px;
+		width:100px;
+		float:left;
+		border-style:solid;
+		text-align: center;
+		background-color: #008CBA;
+		color: white		
+	}
+	.znaki
+	{
+		height:100px;
+		width:100px;
+		float:left;
+		border-style:solid;
+		text-align: center;
+		background-color: #FE7F00;
+		color: white
+	}
+	.wymaz
+	{
+		height:100px;
+		width:400px;
+		float:left;
+		border-style:solid;
+		text-align: center;
+		background-color: #FE7F00;
+		color: white
+	}

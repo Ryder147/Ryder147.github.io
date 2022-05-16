@@ -192,7 +192,7 @@
     <h1>Strona do zadania 3</h1>
 
     <ul>
-      <li><a class="home" href="index.html">Zadanie 2</a></li>
+      <li><a class="home" href="index.php">Kalkulator</a></li>
       <li><a href="#kontakt">Kontakt</a></li>
       <li><a href="#inf">Informacje</a></li>
     </ul>
