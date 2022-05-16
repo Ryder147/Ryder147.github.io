@@ -140,7 +140,7 @@ if(isset($_POST['ekran']))
 	<div class="calosc">
 	
 		<div class="guziki">
-		<form action="./index.php" method="POST">
+		<form action="./kalkulator.php" method="POST">
 		<input class="dzialanie" type="text" maxlength="20" size="100" name="ekran" id="ekran" value="<?php if(isset($wynik)){ echo($wynik);} ?>" ></input>		
 		<input class="rowna" value="=" type="submit" id="wynik" ></input>
 		</form>
